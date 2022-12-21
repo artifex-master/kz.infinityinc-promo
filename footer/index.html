@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <!-- Meta-data -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to the custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Document-title -->
+  <title>Infinity-footer</title>
+</head>
+<body>
+  <footer>
+    <div class="container">
+      <div class="footer__outer">
+        <div class="footer__inner">
+          <figure class="footer-question-mark">
+            <img class="question-mark" src="./assets/images/footer-question-mark.svg" alt="./assets/images/footer-question-mark.svg">
+          </figure>
+
+          <!-- Footer-form -->
+          <form action="" class="footer-form">
+            <div class="footer-form__title">
+              <p>Узнайте стоимость перевозки</p>
+              <!-- mobile-question-mark -->
+              <div class="mobile-question-mark">
+                <img class="mobile-question-mark-img" src="./assets/images/mobile-question-mark.svg" alt="./assets/images/mobile-question-mark.svg">
+              </div>
+            </div>
+            <div class="footer-form__input-wrap">
+              <!-- First-name field -->
+              <input type="text" name="first-name" id="first-name" class="footer-form__input footer-form-fname" placeholder="Ваше имя *">
+              <!-- Second-line footer -->
+              <div class="footer-form__second-line-wrap">
+                <!-- Телефон -->
+                <input type="tel" name="telephone" id="tel" class="footer-form__input footer-form-tel" placeholder="Телефон *">
+                <!-- Город -->
+                <input type="text" name="city" id="city" class="footer-form__input footer-form-city" placeholder="Город">
+              </div>
+              <!-- Email -->
+              <input type="email" name="email" id="email" class="footer-form__input footer-form-email" placeholder="E-mail">
+              <!-- Описание груза -->
+              <input type="text" name="description" id="description" class="footer-form__input footer-form-description" placeholder="Описание груза *">
+            </div>
+            <!-- Button and term and condition wrap -->
+            <div class="footer-form__btn-terms-wrap">
+              <!-- Button -->
+              <div class="footer-form__btn-wrap">
+                <button class="btn-txt-black">Запросить расчет</button>
+              </div>
+
+              <!-- Term and condition block -->
+              <div class="term-wrap">
+                <input type="checkbox" name="term-chbox" id="term-chbox" class="term-wrap__chkbox">
+                <label class="term-wrap__label" for="term-chbox">Согласен на обработку моих персональных данных</label>
+              </div>
+
+              <!-- Mobile terms and conditions -->
+              <div class="mobile-term-wrap">
+                <input type="checkbox" name="term-chbox" id="term-chbox" class="term-wrap__chkbox">
+                <label class="term-wrap__label" for="term-chbox">Согласен на обработку моих персональных данных</label>
+              </div>
+            </div>
+
+
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- 
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

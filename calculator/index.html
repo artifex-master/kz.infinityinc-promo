@@ -1,0 +1,526 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section class="calculator">
+      <div class="calculator-container">
+        <div class="calculator__outer">
+          <div class="calculator__inner">
+            <div class="calculator__left">
+              <!-- Заголовок -->
+              <div class="calculator__title">
+                <p>Расчет стоимости доставки груза</p>
+              </div>
+
+              <!-- Калькулятор -->
+              <form class="calculator__calc-wrap">
+                <div class="calc-wrap__row foots-row">
+                  <div class="calc-foots-radio-wrap">
+                    <input type="checkbox" id="20foots" />
+                    <label for="20foots" class="chbox-label">20 футов</label>
+                  </div>
+
+                  <div class="calc-foots-radio-wrap">
+                    <input type="checkbox" id="40foots" />
+                    <label for="40foots" class="chbox-label">40 футов</label>
+                  </div>
+
+                </div>
+
+                <div class="calc-wrap__row departure">
+                  <div class="depart-select">
+                    <!-- Город отправки из Китая -->
+                    <div class="calc-select-box">
+                      <div class="calc-select__btn" data-dep-city-select>
+                        <span class="city">Город отправки из Китая</span>
+                        <!-- Select-btn arrows up-down -->
+                        <div class="calc-select__arrows-wrap">
+                          <img width="6" height="15" src="../assets/images/icons/select-arrows.png"
+                            alt="../assets/images/icons/select-arrows.png" />
+                        </div>
+                      </div>
+                      <!-- calc-options-dropdown -->
+                      <div class="calc-select__dropdown" data-dep-city-box>
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Аксу</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_altai" />
+                          <label for="depart_from_altai">Алтай</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_anda" />
+                          <label for="depart_from_anda">Аньда</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_antsu" />
+                          <label for="depart_from_antsu">Аньцю</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_ankan" />
+                          <label for="depart_from_ankan">Анькан</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Аньцин</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Аньян</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Баодин</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Баоцзи</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бухэ</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бэйхай</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бэнбу</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бэньси</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Вэйфан</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Ганьчжоу</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Гаосюн</label>
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="port-select">
+                    <div class="calc-port-select-box">
+                      <div class="calc-port-select__btn">
+                        <span class="port">Порт отправки из Китая</span>
+                        <!-- Select-btn arrows up-down -->
+                        <div class="calc-select__arrows-wrap">
+                          <img width="6" height="15" src="../assets/images/icons/select-arrows.png"
+                            alt="../assets/images/icons/select-arrows.png" />
+                        </div>
+                      </div>
+  
+                      <!-- calc-options-dropdown -->
+                      <div class="calc-port-select__dropdown">
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_aksu" />
+                          <label for="depart_from_port_aksu">Аксу</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_altai" />
+                          <label for="depart_from_port_altai">Алтай</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_anda" />
+                          <label for="depart_from_port_anda">Аньда</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_antsu" />
+                          <label for="depart_from_port_antsu">Аньцю</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_ankan" />
+                          <label for="depart_from_port_ankan">Анькан</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_antsin" />
+                          <label for="depart_from_port_antsin">Аньцин</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_anyan" />
+                          <label for="depart_from_port_anyan">Аньян</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_baodin" />
+                          <label for="depart_from_port_baodin">Баодин</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_baotzy" />
+                          <label for="depart_from_port_baotzy">Баоцзи</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_buhe" />
+                          <label for="depart_from_port_buhe">Бухэ</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_beyhai" />
+                          <label for="depart_from_port_beyhai">Бэйхай</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_benbu" />
+                          <label for="depart_from_port_benbu">Бэнбу</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_bensi" />
+                          <label for="depart_from_port_bensi">Бэньси</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_weifan" />
+                          <label for="depart_from_port_weifan">Вэйфан</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_ganzhou" />
+                          <label for="depart_from_port_ganzhou">Ганьчжоу</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_gaosun" />
+                          <label for="depart_from_port_gaosun">Гаосюн</label>
+                        </div>
+
+                      </div>
+  
+  
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Стоимость таможенного оформления -->
+                <div class="calc-custom-clearance">
+                  <input type="checkbox" id="custom-clearance" />
+                  <label for="custom-clearance" class="custom-clearance-label">Добавить стоимость таможенного оформления</label>
+                </div>
+
+                <!-- total-sum -->
+                <div class="calc-total-wrap">
+                  <span>0.00 тг</span>
+                </div>
+
+                <!-- calc-subtxt -->
+                <div class="calc-subtxt-wrap">
+                  <p>Калькулятор показывает только стоимость доставки.<br/> Для более детльного расчёта <strong>запросите бесплатный расчёт.</strong></p>
+                </div>
+
+                <!-- Кнопка -->
+                <div class="calc-btn-wrap">
+                  <button class="calc__btn">Запросить расчет</button>
+                </div>
+
+              </form>
+
+              <!-- Изображение -->
+              <figure class="calculator__img-wrap">
+                <img class="calc-img" src="../assets/images/calculator.svg" alt="../assets/images/calculator.svg" />
+              </figure>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- mobile calculator image -->
+      <figure class="mobile-calc-top-img-wrap">
+        <img src="../assets/images/mobile-calc-top-img.svg" alt="../assets/images/mobile-calc-top-img.svg" />
+      </figure>
+
+      <!-- mobile claculator line -->
+      <figure class="mobile-calc-top-line-wrap">
+        <img width="100%" src="../assets/images/mobile-calc-top-line.svg" alt="../assets/images/mobile-calc-top-line.svg" />
+      </figure>
+
+      <!-- mobile version -->
+      <div class="mobile-calculator-section">
+        <!-- Заголовок -->
+        <div class="mobile-calculator__title">
+          <p>Расчет стоимости доставки груза</p>
+        </div>
+
+        <div class="mobile-calculator__calc">
+          <div class="mobile-calc__foots-row mobile-calc-bold">
+            <div class="mobile-calc__foots-wrap">
+              <input type="checkbox" id="mobile-20-foots" />
+              <label for="mobile-20-foots">20 футов</label>
+            </div>
+
+            <div class="mobile-calc__foots-wrap">
+              <input type="checkbox" id="mobile-40-foots" />
+              <label for="mobile-40-foots">40 футов</label>
+            </div>
+          </div>
+
+          <div class="mobile-calc__btn-wrap">
+            <div class="mobile-calc-select-box">
+              <div class="mobile-city-select">
+                <p class="depart-city">Город отправки из Китая</p>
+                <div class="mobile-calc__btn-img-wrap">
+                  <img src="../assets/images/icons/select-arrows.png" alt="../assets/images/icons/select-arrows.png" />
+                </div>
+              </div>
+              <div class="mobile-city-dropdown">
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-aksu" />
+                  <label for="mobile-city-aksu">Аксу</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-altai" />
+                  <label for="mobile-city-altai">Алтай</label>
+                </div>
+
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-anda" />
+                  <label for="mobile-city-anda">Аньда</label>
+                </div>
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-antsu" />
+                  <label for="mobile-city-antsu">Аньцю</label>
+                </div>
+
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-ankan" />
+                  <label for="mobile-city-ankan">Анькан</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-antsin" />
+                  <label for="mobile-city-antsin">Аньцин</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-anyan" />
+                  <label for="mobile-city-anyan">Аньян</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-baodin" />
+                  <label for="mobile-city-baodin">Баодин</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-baotzy" />
+                  <label for="mobile-city-baotzy">Баоцзи</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-buhe" />
+                  <label for="mobile-city-buhe">Бухэ</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-beyhai" />
+                  <label for="mobile-city-beyhai">Бэйхай</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-benbu" />
+                  <label for="mobile-city-benbu">Бэнбу</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-bensi" />
+                  <label for="mobile-city-bensi">Бэнси</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-weifan" />
+                  <label for="mobile-city-weifan">Вейфан</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-ganzhou" />
+                  <label for="mobile-city-ganzhou">Ганьчжоу</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-gaosun" />
+                  <label for="mobile-city-gaosun">Гаосюн</label>
+                </div>
+
+
+
+              </div>
+            </div>
+
+            <div class="mobile-calc-port-select-box">
+              <div class="mobile-port-select">
+                <p class="depart-port">Порт отправки из Китая</p>
+                <div class="mobile-calc__btn-img-wrap">
+                  <img src="../assets/images/icons/select-arrows.png" alt="../assets/images/icons/select-arrows.png" />
+                </div>
+              </div>
+              <div class="mobile-port-dropdown">
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-aksu" />
+                  <label for="mobile-port-aksu">Аксу</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-altai" />
+                  <label for="mobile-port-altai">Алтай</label>
+                </div>
+
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-anda" />
+                  <label for="mobile-port-anda">Аньда</label>
+                </div>
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-antsu" />
+                  <label for="mobile-port-antsu">Аньцю</label>
+                </div>
+
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-ankan" />
+                  <label for="mobile-port-ankan">Анькан</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-antsin" />
+                  <label for="mobile-port-antsin">Аньцин</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-anyan" />
+                  <label for="mobile-port-anyan">Аньян</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-baodin" />
+                  <label for="mobile-port-baodin">Баодин</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-baotzy" />
+                  <label for="mobile-port-baotzy">Баоцзи</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-buhe" />
+                  <label for="mobile-port-buhe">Бухэ</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-beyhai" />
+                  <label for="mobile-port-beyhai">Бэйхай</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-benbu" />
+                  <label for="mobile-port-benbu">Бэнбу</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-bensi" />
+                  <label for="mobile-port-bensi">Бэнси</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-weifan" />
+                  <label for="mobile-port-weifan">Вейфан</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-ganzhou" />
+                  <label for="mobile-port-ganzhou">Ганьчжоу</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-gaosun" />
+                  <label for="mobile-port-gaosun">Гаосюн</label>
+                </div>
+
+
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="mobile-calc__custom-clearance mobile-calc-bold">
+            <input type="checkbox" id="mobile-custom-clearance">
+            <label for="mobile-custom-clearance" class="custom-clearance-label">Добавить стоимость таможенного оформления</label>
+          </div>
+
+          <div class="mobile-calc__subtxt-wrap">
+            <p>Калькулятор показывает только стоимость доставки.<br>
+              Для более детльного расчёта <strong>запросите бесплатный расчёт.</strong></p>
+          </div>
+
+          <div class="mobile-calc__btn">
+            <p>Запросить расчет</p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+
+  <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

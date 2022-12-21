@@ -1,0 +1,1038 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to the custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./our-features/features.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
+
+  <!-- CDN to JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- Link to Slick-JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Link to accrodion&tabs jquery plugin -->
+  <link href="./assets/css/jquery.atAccordionOrTabs.css" rel="stylesheet">
+
+  <!-- Document Title -->
+  <title>Infinity</title>
+</head>
+<body>
+  <main>
+    <!-- Секция "Шапка" -->
+    <section class="head">
+      <!-- background-lines -->
+      <div class="head-bg-lines-wrap">
+        <img class="head-bg-lines" src="./assets/images/head-bg-lines.png" alt="./assets/images/head-bg-lines.png">
+      </div>
+      <!-- mobile-background-lines -->
+      <div class="mobile-bg-lines-wrap">
+        <img class="mobile-bg-lines" width="100%" src="./assets/images/mobile-head-bg.png" alt="./assets/images/mobile-head-bg.png">
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar" data-navbar>
+        <div class="navbar-menu" data-toggle-navbar>
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <!-- .navbar-list -->
+        <ul class="navbar-list">
+          <a class="navbar-list-item">Сервис</a>
+          <a class="navbar-list-item">Расчет стоимости</a>
+          <a class="navbar-list-item">Преимущества</a>
+          <a class="navbar-list-item">Контакты</a>
+          <a class="navbar-list-item">+7 (702) 4899998</a>
+        </ul>
+        <!-- .btn-blue -->
+        <button class="btn-blue">Заказать обратный звонок</button>
+
+
+      </nav>
+      <!-- Overlay -->
+      <div class="overlay" data-overlay></div>
+      <!-- container -->
+      <div class="head-container">
+        <div class="head__outer">
+        <!-- Toolbar for mobile -->
+          <div class="toolbar-mobile">
+            <!-- Toolbar-logo -->
+            <figure class="toolbar-logo">
+              <img src="./assets/images/toolbar-logo.png" alt="Toolbar logo">
+            </figure>
+          
+            <!-- figure - menu -->
+              <figure class="menu-mobile" data-toggle>
+                <ion-icon name="menu-outline"></ion-icon>
+              </figure>
+          
+            <!-- figure - phone -->
+              <figure class="toolbar-phone">
+                <img src="./assets/images/phone-icon.png" alt="Phone icon">
+              </figure>
+          </div>
+          <div class="head__inner">
+            <!-- Header -->
+            <div class="header-wrap">
+              <header>
+                <!-- logo -->
+                <figure class="logo">
+                  <a href="#top"><img src="./assets/images/logo.svg" alt="Logo"></a>
+                </figure>
+                <div class="desktop-navbar">
+                  <a href="#">Сервис</a>
+                  <a href="#"><li>Расчет стоимости</li></a>
+                  <a href="#"><li>Преимущества</li></a>
+                  <a href="#"><li>Контакты</li></a>
+                </div>
+                <!-- tel-btn-group -->
+                <div class="tel-btn-group">
+                  <div class="desktop-tel-wrap">
+                    <span>+7 (702) 4899998</span>
+                  </div>
+                  <!-- btn-white -->
+                  <button class="btn-white">Заказать обратный звонок</button>
+                  
+                </div>
+              </header>
+            </div>
+
+            <!-- Hero-section -->
+            <div class="hero">
+              <!-- Hero-title -->
+              <div class="hero__title">
+                <p>Торгово-логистические услуги</p>
+              </div>
+              <!-- hero__subtxt -->
+              <div class="hero__subtext">
+                <div class="hero__subtext-top">
+                  <p>Быстрая и безопасная логистика, а также таможенное оформление любого груза</p>
+                </div>
+                <div class="hero__subtext-dot">
+                  <img src="./assets/images/ellipse.svg" alt="./assets/images/ellipse.svg">
+                </div>
+                <div class="hero__subtext-bottom">
+                  <p>Организация производства, управлению поставок из Китая и Европы в страны СНГ</p>
+                </div>
+              </div>
+
+
+              <!-- hero__form -->
+              <form action="" class="hero-form">
+                <figure class="form-img form-ship">
+                  <img src="./assets/images/form-img/form__ship-img.svg" alt="../assets/images/form-img/form__ship-img.png">
+                </figure>
+                <figure class="form-img form-train">
+                  <img src="./assets/images/form-img/form__train-img.svg" alt="../assets/images/form-img/form__train-img.png">
+                </figure>
+                <div class="form__input-group">
+                  <input type="text" class="form__input" placeholder="Телефон">
+                  <button class="btn-white">Заказать обратный звонок</button>
+                </div>
+
+                <figure class="form-img form-plane">
+                  <img src="./assets/images/form-img/form__plane-img.svg" alt="../assets/images/form-img/form__plane-img.png">
+                </figure>
+
+                <figure class="form-img form-truck">
+                  <img src="./assets/images/form-img/form__truck-img.svg" alt="../assets/images/form-img/form__truck-img.png">
+                </figure>
+
+                <div class="group-img">
+                  <figure class="form-ship">
+                    <img src="./assets/images/form-img/form__ship-img.svg" alt="../assets/images/form-img/form__ship-img.png">
+                  </figure>
+                  <figure class="form-train">
+                    <img src="./assets/images/form-img/form__train-img.svg" alt="../assets/images/form-img/form__train-img.png">
+                  </figure>
+
+                  <figure class="form-plane">
+                    <img src="./assets/images/form-img/form__plane-img.svg" alt="../assets/images/form-img/form__plane-img.png">
+                  </figure>
+  
+                  <figure class="form-truck">
+                    <img src="./assets/images/form-img/form__truck-img.svg" alt="../assets/images/form-img/form__truck-img.png">
+                  </figure>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </div>
+
+          <!-- Hero-mobile -->
+          <div class="hero-mobile">
+            <div class="hero-mobile__ship">
+              <img class="ship-mobile" src="./assets/images/hero-mobile-ship.png" alt="Hero Mobile Ship">
+            </div>
+            <div class="hero-mobile__title">
+              <p>Торгово-логистические услуги</p>
+            </div>
+            <div class="hero-mobile__subtext">
+              <div class="hero-mobile__subtext-top">
+                <p>Быстрая и безопасная логистика, а также таможенное оформление любого груза</p>
+              </div>
+              <div class="hero-mobile__subtext-dot">
+                <img src="./assets/images/dot-separator.png" alt="Mobile-dot">
+              </div>
+              <div class="hero-mobile__subtext-bottom">
+                <p>Организация производства, управлению поставок из Китая и Европы в страны СНГ</p>
+              </div>
+            </div>
+
+            <div class="hero-mobile__form">
+              <div class="hero-mobile__form-input-group">
+                <div class="hero-mobile__form-input">
+                  <input type="text" class="form__input" placeholder="Телефон">
+                </div>
+                <div class="hero-mobile__form-btn">
+                  <button class="btn-white">Заказать обратный звонок</button>
+                </div>
+
+              </div>
+              <div class="hero-mobile__form-img-group">
+                <div class="hero-mobile-train">
+                  <img class="mobile-bottom-train" src="./assets/images/form-img/form__train-img.svg" alt="">
+                </div>
+                <div class="hero-mobile-plane">
+                  <img class="mobile-bottom-plane" src="./assets/images/form-img/form__plane-img.svg" alt="">
+                </div>
+                <div class="hero-mobile-truck">
+                  <img class="mobile-bottom-truck" src="./assets/images/form-img/form__truck-img.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="services__inner">
+          <div class="services__title">
+            <p>Сервис</p>
+          </div>
+
+          <!-- .txt-block-one -->
+          <div class="txt-block-one">
+            <div class="txt-block-one-top">
+              <p><strong>Инфинити Групп</strong> организует перевозку <strong>любого груза</strong> из Китая и стран Восточной Азии, а также в обратном направлении.</p>
+              <p>У нас всегда только <strong>фиксированная цены</strong> за услуги, абсолютная <strong>прозрачность в сделках</strong> и гарантированные сроки доставки.</p>
+            </div>
+            <div class="txt-block-one__line-separator">
+              <img width="100%" src="./assets/images/line-separator.png" alt="Separator">
+            </div>
+            <div class="txt-block-one-bottom">
+              <p><strong>Доставка грузов из Китая</strong> непростой процесс, так как требуется совмещение нескольких видов транспорта.</p>
+              <p>В основном это мультимодальная перевозка, совмещающая сразу доставку морем, ж/д, авиа и автомобильным транспортом.</p>
+              <p>Логистика подразумевает <strong>взаимодействие перевозчиков</strong> и владельцев различных инфраструктур: контейнерных терминалов, портов, аэропортов и железнодорожных станций.</p>
+              <p>Инфинити Групп - предоставляет своим клиентам <strong>полный спектр услуг в рамках одного договора.</strong></p>
+            </div>
+
+          </div>
+
+          <!-- .txt-block-two -->
+          <div class="txt-block">
+            <div class="txt-block__title block__title-one">
+              <p>Контейнерные перевозки из Китая</p>
+            </div>
+            <div class="txt-block__content block__content-one">
+              <p>Доставка в контейнерах - это удобный и экономичный способ транспортировки груза.</p>
+              <p>Наши специалисты имеют большой опыт работы и готовы решить Вашу задачу в кратчайшие сроки.</p>
+            </div>
+          </div>
+
+          <!-- .txt-block-three -->
+          <div class="txt-block-three">
+            <div class="txt-block__title block__title-three">
+              <p>Логистика</p>
+            </div>
+            <div class="txt-block__content block__content-three">
+              <p>Мы организуем доставку товара из Китая, подбирая оптимальные маршруты и минимизируя ваши затраты.</p>
+              <p>Мы берем на себя вопросы ВЭД и отвечаем за груз на всех этапах следования.</p>
+            </div>
+          </div>
+
+          <!-- .txt-block-four -->
+          <div class="txt-block-four">
+            <div class="txt-block__title block__title-four">
+              <p>Таможенное оформление грузов из Китая</p>
+            </div>
+            <div class="txt-block__content block__content-four">
+              <p>Мы оказываем все необходимые услуги, связанные с таможенным оформлением и сохранной логистикой Вашего груза из всех основных портов Китая.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="calculator">
+      <div class="calculator-container">
+        <div class="calculator__outer">
+          <div class="calculator__inner">
+            <div class="calculator__left">
+              <!-- Заголовок -->
+              <div class="calculator__title">
+                <p>Расчет стоимости доставки груза</p>
+              </div>
+
+              <!-- Калькулятор -->
+              <form class="calculator__calc-wrap">
+                <div class="calc-wrap__row foots-row">
+                  <div class="calc-foots-radio-wrap">
+                    <input type="checkbox" id="20foots" />
+                    <label for="20foots" class="chbox-label">20 футов</label>
+                  </div>
+
+                  <div class="calc-foots-radio-wrap">
+                    <input type="checkbox" id="40foots" />
+                    <label for="40foots" class="chbox-label">40 футов</label>
+                  </div>
+
+                </div>
+
+                <div class="calc-wrap__row departure">
+                  <div class="depart-select">
+                    <!-- Город отправки из Китая -->
+                    <div class="calc-select-box">
+                      <div class="calc-select__btn" data-dep-city-select>
+                        <span class="city">Город отправки из Китая</span>
+                        <!-- Select-btn arrows up-down -->
+                        <div class="calc-select__arrows-wrap">
+                          <img width="6" height="15" src="./assets/images/icons/select-arrows.png"
+                            alt="../assets/images/icons/select-arrows.png" />
+                        </div>
+                      </div>
+                      <!-- calc-options-dropdown -->
+                      <div class="calc-select__dropdown" data-dep-city-box>
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Аксу</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_altai" />
+                          <label for="depart_from_altai">Алтай</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_anda" />
+                          <label for="depart_from_anda">Аньда</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_antsu" />
+                          <label for="depart_from_antsu">Аньцю</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_ankan" />
+                          <label for="depart_from_ankan">Анькан</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Аньцин</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Аньян</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Баодин</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Баоцзи</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бухэ</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бэйхай</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бэнбу</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Бэньси</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Вэйфан</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Ганьчжоу</label>
+                        </div>
+
+                        <div class="calc-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_aksu" />
+                          <label for="depart_from_aksu">Гаосюн</label>
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="port-select">
+                    <div class="calc-port-select-box">
+                      <div class="calc-port-select__btn">
+                        <span class="port">Порт отправки из Китая</span>
+                        <!-- Select-btn arrows up-down -->
+                        <div class="calc-select__arrows-wrap">
+                          <img width="6" height="15" src="./assets/images/icons/select-arrows.png"
+                            alt="../assets/images/icons/select-arrows.png" />
+                        </div>
+                      </div>
+  
+                      <!-- calc-options-dropdown -->
+                      <div class="calc-port-select__dropdown">
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_aksu" />
+                          <label for="depart_from_port_aksu">Аксу</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_altai" />
+                          <label for="depart_from_port_altai">Алтай</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_anda" />
+                          <label for="depart_from_port_anda">Аньда</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_antsu" />
+                          <label for="depart_from_port_antsu">Аньцю</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_ankan" />
+                          <label for="depart_from_port_ankan">Анькан</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_antsin" />
+                          <label for="depart_from_port_antsin">Аньцин</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_anyan" />
+                          <label for="depart_from_port_anyan">Аньян</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_baodin" />
+                          <label for="depart_from_port_baodin">Баодин</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_baotzy" />
+                          <label for="depart_from_port_baotzy">Баоцзи</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_buhe" />
+                          <label for="depart_from_port_buhe">Бухэ</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_beyhai" />
+                          <label for="depart_from_port_beyhai">Бэйхай</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_benbu" />
+                          <label for="depart_from_port_benbu">Бэнбу</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_bensi" />
+                          <label for="depart_from_port_bensi">Бэньси</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_weifan" />
+                          <label for="depart_from_port_weifan">Вэйфан</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_ganzhou" />
+                          <label for="depart_from_port_ganzhou">Ганьчжоу</label>
+                        </div>
+  
+                        <div class="calc-port-select__dropdown-option-wrap">
+                          <input type="radio" id="depart_from_port_gaosun" />
+                          <label for="depart_from_port_gaosun">Гаосюн</label>
+                        </div>
+
+                      </div>
+  
+  
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Стоимость таможенного оформления -->
+                <div class="calc-custom-clearance">
+                  <input type="checkbox" id="custom-clearance" />
+                  <label for="custom-clearance" class="custom-clearance-label">Добавить стоимость таможенного оформления</label>
+                </div>
+
+                <!-- total-sum -->
+                <div class="calc-total-wrap">
+                  <span>0.00 тг</span>
+                </div>
+
+                <!-- calc-subtxt -->
+                <div class="calc-subtxt-wrap">
+                  <p>Калькулятор показывает только стоимость доставки.<br/> Для более детльного расчёта <strong>запросите бесплатный расчёт.</strong></p>
+                </div>
+
+                <!-- Кнопка -->
+                <div class="calc-btn-wrap">
+                  <button class="calc__btn">Запросить расчет</button>
+                </div>
+
+              </form>
+
+              <!-- Изображение -->
+              <figure class="calculator__img-wrap">
+                <img class="calc-img" src="./assets/images/calculator.svg" alt="../assets/images/calculator.svg" />
+              </figure>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- mobile calculator image -->
+      <figure class="mobile-calc-top-img-wrap">
+        <img src="./assets/images/mobile-calc-top-img.svg" alt="../assets/images/mobile-calc-top-img.svg" />
+      </figure>
+
+      <!-- mobile claculator line -->
+      <figure class="mobile-calc-top-line-wrap">
+        <img width="100%" src="./assets/images/mobile-calc-top-line.svg" alt="../assets/images/mobile-calc-top-line.svg" />
+      </figure>
+
+      <!-- mobile version -->
+      <div class="mobile-calculator-section">
+        <!-- Заголовок -->
+        <div class="mobile-calculator__title">
+          <p>Расчет стоимости доставки груза</p>
+        </div>
+
+        <div class="mobile-calculator__calc">
+          <div class="mobile-calc__foots-row mobile-calc-bold">
+            <div class="mobile-calc__foots-wrap">
+              <input type="checkbox" id="mobile-20-foots" />
+              <label for="mobile-20-foots">20 футов</label>
+            </div>
+
+            <div class="mobile-calc__foots-wrap">
+              <input type="checkbox" id="mobile-40-foots" />
+              <label for="mobile-40-foots">40 футов</label>
+            </div>
+          </div>
+
+          <div class="mobile-calc__btn-wrap">
+            <div class="mobile-calc-select-box">
+              <div class="mobile-city-select">
+                <p class="depart-city">Город отправки из Китая</p>
+                <div class="mobile-calc__btn-img-wrap">
+                  <img src="./assets/images/icons/select-arrows.png" alt="../assets/images/icons/select-arrows.png" />
+                </div>
+              </div>
+              <div class="mobile-city-dropdown">
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-aksu" />
+                  <label for="mobile-city-aksu">Аксу</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-altai" />
+                  <label for="mobile-city-altai">Алтай</label>
+                </div>
+
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-anda" />
+                  <label for="mobile-city-anda">Аньда</label>
+                </div>
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-antsu" />
+                  <label for="mobile-city-antsu">Аньцю</label>
+                </div>
+
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-ankan" />
+                  <label for="mobile-city-ankan">Анькан</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-antsin" />
+                  <label for="mobile-city-antsin">Аньцин</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-anyan" />
+                  <label for="mobile-city-anyan">Аньян</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-baodin" />
+                  <label for="mobile-city-baodin">Баодин</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-baotzy" />
+                  <label for="mobile-city-baotzy">Баоцзи</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-buhe" />
+                  <label for="mobile-city-buhe">Бухэ</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-beyhai" />
+                  <label for="mobile-city-beyhai">Бэйхай</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-benbu" />
+                  <label for="mobile-city-benbu">Бэнбу</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-bensi" />
+                  <label for="mobile-city-bensi">Бэнси</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-weifan" />
+                  <label for="mobile-city-weifan">Вейфан</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-ganzhou" />
+                  <label for="mobile-city-ganzhou">Ганьчжоу</label>
+                </div>
+
+                <div class="mobile-city-dropdown-option">
+                  <input type="radio" id="mobile-city-gaosun" />
+                  <label for="mobile-city-gaosun">Гаосюн</label>
+                </div>
+
+
+
+              </div>
+            </div>
+
+            <div class="mobile-calc-port-select-box">
+              <div class="mobile-port-select">
+                <p class="depart-port">Порт отправки из Китая</p>
+                <div class="mobile-calc__btn-img-wrap">
+                  <img src="./assets/images/icons/select-arrows.png" alt="../assets/images/icons/select-arrows.png" />
+                </div>
+              </div>
+              <div class="mobile-port-dropdown">
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-aksu" />
+                  <label for="mobile-port-aksu">Аксу</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-altai" />
+                  <label for="mobile-port-altai">Алтай</label>
+                </div>
+
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-anda" />
+                  <label for="mobile-port-anda">Аньда</label>
+                </div>
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-antsu" />
+                  <label for="mobile-port-antsu">Аньцю</label>
+                </div>
+
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-ankan" />
+                  <label for="mobile-port-ankan">Анькан</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-antsin" />
+                  <label for="mobile-port-antsin">Аньцин</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-anyan" />
+                  <label for="mobile-port-anyan">Аньян</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-baodin" />
+                  <label for="mobile-port-baodin">Баодин</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-baotzy" />
+                  <label for="mobile-port-baotzy">Баоцзи</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-buhe" />
+                  <label for="mobile-port-buhe">Бухэ</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-beyhai" />
+                  <label for="mobile-port-beyhai">Бэйхай</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-benbu" />
+                  <label for="mobile-port-benbu">Бэнбу</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-bensi" />
+                  <label for="mobile-port-bensi">Бэнси</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-weifan" />
+                  <label for="mobile-port-weifan">Вейфан</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-ganzhou" />
+                  <label for="mobile-port-ganzhou">Ганьчжоу</label>
+                </div>
+
+                <div class="mobile-port-dropdown-option">
+                  <input type="radio" id="mobile-port-gaosun" />
+                  <label for="mobile-port-gaosun">Гаосюн</label>
+                </div>
+
+
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="mobile-calc__custom-clearance mobile-calc-bold">
+            <input type="checkbox" id="mobile-custom-clearance">
+            <label for="mobile-custom-clearance" class="custom-clearance-label">Добавить стоимость таможенного оформления</label>
+          </div>
+
+          <div class="mobile-calc__subtxt-wrap">
+            <p>Калькулятор показывает только стоимость доставки.<br>
+              Для более детльного расчёта <strong>запросите бесплатный расчёт.</strong></p>
+          </div>
+
+          <div class="mobile-calc__btn">
+            <p>Запросить расчет</p>
+          </div>
+
+        </div>
+      </div>
+    </section>    
+    
+
+
+    
+    <!-- Секция "Преимущества" -->
+  
+    
+    <!-- Секция "Табы" -->
+    <section class="tabbed-nav-section">
+      <div class="tabbed-container">
+        <div class="tabbed-nav__outer">
+          <div class="tabbed-nav__inner">
+            <!-- Заголовок -->
+            <div class="tabbed-nav__title">
+              <p>Наши офисы:</p>
+            </div>
+
+            <!-- Nav-board -->
+            <ul class="tabbed-nav">
+              <li>
+                <a href="" class="tabbed-nav-link tab-kz">Казахстан</a>
+                <section>
+                  <div class="tab-info">
+                    <div class="tab-info__title">
+                      <p>Логистический центр</p>
+                    </div>
+                    <div class="tab-info__txt-wrap">
+                      <p>Ауэзовский район, 050042, ул. Жандосова, 98 (угол ул. Навои) БЦ "Навои", офис 405</p>
+                      <div class="tab-info__txt-phones">
+                        <p>+7 (727)3 545420</p>
+                        <p>+7 (702) 4899998</p>
+                      </div>
+                      <p>kz@infinityinc.net</p>
+                    </div>
+                  </div>
+                  <figure class="tab-desktop-bg-wrap">
+                    <img class="tab-desktop-bg-img" src="../assets/images/tab-desktop-kaz.svg" alt="">
+                  </figure>
+                </section>
+              </li>
+              <li>
+                <a href="" class="tabbed-nav-link" id="tab-ch">Китай</a>
+                <section>
+                  <div class="tab-info">
+                    <div class="tab-info__title">
+                      <p>Операционный центр</p>
+                    </div>
+                    <div class="tab-info__txt-wrap">
+                      <p>2535-25/F, A Tower, R&F Ying Feng, 2 Hua Qiang Road, Guangzhou city, 510623, P. R. China</p>
+                      <div class="tab-info__txt-phones">
+                        <p>+86 20 29129100</p>
+                        <p>+86 15800045005</p>
+                      </div>
+                      <p>cn@infinityinc.net</p>
+                    </div>
+                  </div>
+                  <figure class="tab-desktop-bg-wrap">
+                    <img class="tab-desktop-bg-img" src="../assets/images/tab-desktop-ch.svg" alt="">
+                  </figure>                  
+                </section>
+              </li>
+              <!-- <li>
+                <a href="" class="tabbed-nav-link" id="tab-ru">Россия</a>
+                <section class="tab-section">
+                  <p>Content 3</p>
+                </section>
+              </li> -->
+              <li>
+                <a href="" class="tabbed-nav-link">Узбекистан</a>
+                <section class="tab-section">
+                  <div class="tab-info">
+                    <div class="tab-info__title">
+                      <p>Клиентский центр</p>
+                    </div>
+                    <div class="tab-info__txt-wrap">
+                      <p>Ташкент, 100069, Мирзо-Улугбекский район, пр. Мустакиллик 6</p>
+                      <div class="tab-info__txt-phones">
+                        <p>+998(78)113 35 55</p>
+                      </div>
+                      <p>uz@infinityinc.net</p>
+                    </div>
+                  </div>
+                  <figure class="tab-desktop-bg-wrap">
+                    <img class="tab-desktop-bg-img" src="../assets/images/tab-desktop-uz.svg" alt="">
+                  </figure>
+                </section>
+              </li>
+            </ul>
+
+            <!-- Mobile-nav-board -->
+            <ul class="mobile-tabbed-nav">
+              <li>
+                <div class="moble-tabbed-nav__tab-wrap">
+                  <a href="" class="mobile-tabbed-nav__tab">Казахстан</a>
+                </div>
+                <section>
+                  <figure class="mobile-tab-nav-img-wrap">
+                    <img class="mobile-tab-nav-img" src="../assets/images/mobile-tab-nav-img.svg" alt="">
+                  </figure>
+
+                  <div class="mobile-tab-nav__bottom-wrap">
+                    <div class="mobile-tab-nav__txt-wrap">
+                      <div class="mobile-tab-nav__txt-title">
+                        <p>Логистический центр</p>
+                      </div>
+                      <div class="mobile-tab-nav__txt">
+                        <p>Ауэзовский район, 050042, ул. Жандосова, 98 (угол ул. Навои) БЦ "Навои", офис 405</p>
+                        <div class="mobile-tab-nav__txt-phones">
+                          <p>+7 (727)3 545420</p>
+                          <p>+7 (702) 4899998</p>
+                        </div>
+                        <p>kz@infinityinc.net</p>
+                      </div>
+                    </div>
+                  </div>      
+                </section>
+              </li>
+              <li>
+                <div class="moble-tabbed-nav__tab-wrap">
+                  <a href="" class="mobile-tabbed-nav__tab">Узбекистан</a>
+                </div>
+                <section>
+                  <figure class="mobile-tab-nav-img-wrap">
+                    <img class="mobile-tab-nav-img" src="../assets/images/mobile-tab-img-uz.svg" alt="">
+                  </figure>
+
+
+                  <div class="mobile-tab-nav__bottom-wrap">
+                    <div class="mobile-tab-nav__txt-wrap">
+                      <div class="mobile-tab-nav__txt-title">
+                        <p>Клиентский центр</p>
+                      </div>
+                      <div class="mobile-tab-nav__txt">
+                        <p>Ташкент, 100069, Мирзо-Улугбекский район, пр. Мустакиллик 6</p>
+                        <div class="mobile-tab-nav__txt-phones">
+                          <p>+998(78)113 35 55</p>
+                        </div>
+                        <p>uz@infinityinc.net</p>
+                      </div>
+                    </div>
+                  </div>                  
+                </section>
+              </li>
+              <li>
+                <div class="moble-tabbed-nav__tab-wrap">
+                  <a href="" class="mobile-tabbed-nav__tab">Китай</a>
+                </div>
+                <section>
+                  <figure class="mobile-tab-nav-img-wrap">
+                    <img class="mobile-tab-nav-img" src="../assets/images/mobile-tab-nav-img-ch.svg" alt="">
+                  </figure>
+
+                  <div class="mobile-tab-nav__bottom-wrap">
+                    <div class="mobile-tab-nav__txt-wrap">
+                      <div class="mobile-tab-nav__txt-title">
+                        <p>Операционный центр</p>
+                      </div>
+                      <div class="mobile-tab-nav__txt">
+                        <p>2535-25/F, A Tower, R&F Ying Feng, 2 Hua Qiang Road, Guangzhou city, 510623, P. R. China</p>
+                        <div class="mobile-tab-nav__txt-phones">
+                          <p>+86 20 29129100</p>
+                          <p>+86 15800045005</p>
+                        </div>
+                        <p>cn@infinityinc.net</p>
+                      </div>
+                    </div>
+                  </div>                   
+                </section>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+    </section> 
+  </main>
+  <div class="footer-wrapper">
+    <footer>
+      <div class="footer-container">
+        <div class="footer__outer">
+          <div class="footer__inner">
+            <figure class="footer-question-mark">
+              <img class="question-mark" src="./assets/images/footer-question-mark.svg" alt="./assets/images/footer-question-mark.svg">
+            </figure>
+  
+            <!-- Footer-form -->
+            <form action="" class="footer-form">
+              <div class="footer-form__title">
+                <p>Узнайте стоимость перевозки</p>
+                <!-- mobile-question-mark -->
+                <div class="mobile-question-mark">
+                  <img class="mobile-question-mark-img" src="./assets/images/mobile-question-mark.svg" alt="./assets/images/mobile-question-mark.svg">
+                </div>
+              </div>
+              <div class="footer-form__input-wrap">
+                <!-- First-name field -->
+                <input type="text" name="first-name" id="first-name" class="footer-form__input footer-form-fname" placeholder="Ваше имя *">
+                <!-- Second-line footer -->
+                <div class="footer-form__second-line-wrap">
+                  <!-- Телефон -->
+                  <input type="tel" name="telephone" id="tel" class="footer-form__input footer-form-tel" placeholder="Телефон *">
+                  <!-- Город -->
+                  <input type="text" name="city" id="city" class="footer-form__input footer-form-city" placeholder="Город">
+                </div>
+                <!-- Email -->
+                <input type="email" name="email" id="email" class="footer-form__input footer-form-email" placeholder="E-mail">
+                <!-- Описание груза -->
+                <input type="text" name="description" id="description" class="footer-form__input footer-form-description" placeholder="Описание груза *">
+              </div>
+              <!-- Button and term and condition wrap -->
+              <div class="footer-form__btn-terms-wrap">
+                <!-- Button -->
+                <div class="footer-form__btn-wrap">
+                  <button class="btn-txt-black">Запросить расчет</button>
+                </div>
+  
+                <!-- Term and condition block -->
+                <div class="term-wrap">
+                  <input type="checkbox" name="term-chbox" id="term-chbox" class="term-wrap__chkbox">
+                  <label class="term-wrap__label" for="term-chbox">Согласен на обработку моих персональных данных</label>
+                </div>
+  
+                <!-- Mobile terms and conditions -->
+                <div class="mobile-term-wrap">
+                  <input type="checkbox" name="term-chbox" id="term-chbox" class="term-wrap__chkbox">
+                  <label class="term-wrap__label" for="term-chbox">Согласен на обработку моих персональных данных</label>
+                </div>
+              </div>
+  
+  
+            </form>
+  
+  
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/sliders.js"></script>
+  <!-- Link to the custom JavaScript -->
+  <script src="./assets/js/tabs.js"></script>
+  <!-- Link to jquery accordion&tabs nav -->
+  <script src="./assets/js/jquery.atAccordionOrTabs.js"></script>
+  <script src="./assets/js/jquery.bbq.js"></script>
+</body>
+</html>

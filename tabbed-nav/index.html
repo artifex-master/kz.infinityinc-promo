@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to the cutom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+
+  <!-- CDN to JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Link to accrodion&tabs jquery plugin -->
+  <link href="../assets/css/jquery.atAccordionOrTabs.css" rel="stylesheet">
+
+  <title>Tabbed Navigation</title>
+</head>
+<body>
+  <main>
+    <section class="tabbed-nav-section">
+      <div class="tabbed-container">
+        <div class="tabbed-nav__outer">
+          <div class="tabbed-nav__inner">
+            <!-- Заголовок -->
+            <div class="tabbed-nav__title">
+              <p>Наши офисы:</p>
+            </div>
+
+            <!-- Nav-board -->
+            <ul class="tabbed-nav">
+              <li>
+                <a href="" class="tabbed-nav-link tab-kz">Казахстан</a>
+                <section>
+                  <div class="tab-info">
+                    <div class="tab-info__title">
+                      <p>Логистический центр</p>
+                    </div>
+                    <div class="tab-info__txt-wrap">
+                      <p>Ауэзовский район, 050042, ул. Жандосова, 98 (угол ул. Навои) БЦ "Навои", офис 405</p>
+                      <div class="tab-info__txt-phones">
+                        <p>+7 (727)3 545420</p>
+                        <p>+7 (702) 4899998</p>
+                      </div>
+                      <p>kz@infinityinc.net</p>
+                    </div>
+                  </div>
+                  <figure class="tab-desktop-bg-wrap">
+                    <img class="tab-desktop-bg-img" src="../assets/images/tab-desktop-kaz.svg" alt="">
+                  </figure>
+                </section>
+              </li>
+              <li>
+                <a href="" class="tabbed-nav-link" id="tab-ch">Китай</a>
+                <section>
+                  <div class="tab-info">
+                    <div class="tab-info__title">
+                      <p>Операционный центр</p>
+                    </div>
+                    <div class="tab-info__txt-wrap">
+                      <p>2535-25/F, A Tower, R&F Ying Feng, 2 Hua Qiang Road, Guangzhou city, 510623, P. R. China</p>
+                      <div class="tab-info__txt-phones">
+                        <p>+86 20 29129100</p>
+                        <p>+86 15800045005</p>
+                      </div>
+                      <p>cn@infinityinc.net</p>
+                    </div>
+                  </div>
+                  <figure class="tab-desktop-bg-wrap">
+                    <img class="tab-desktop-bg-img" src="../assets/images/tab-desktop-ch.svg" alt="">
+                  </figure>                  
+                </section>
+              </li>
+              <!-- <li>
+                <a href="" class="tabbed-nav-link" id="tab-ru">Россия</a>
+                <section class="tab-section">
+                  <p>Content 3</p>
+                </section>
+              </li> -->
+              <li>
+                <a href="" class="tabbed-nav-link">Узбекистан</a>
+                <section class="tab-section">
+                  <div class="tab-info">
+                    <div class="tab-info__title">
+                      <p>Клиентский центр</p>
+                    </div>
+                    <div class="tab-info__txt-wrap">
+                      <p>Ташкент, 100069, Мирзо-Улугбекский район, пр. Мустакиллик 6</p>
+                      <div class="tab-info__txt-phones">
+                        <p>+998(78)113 35 55</p>
+                      </div>
+                      <p>uz@infinityinc.net</p>
+                    </div>
+                  </div>
+                  <figure class="tab-desktop-bg-wrap">
+                    <img class="tab-desktop-bg-img" src="../assets/images/tab-desktop-uz.svg" alt="">
+                  </figure>
+                </section>
+              </li>
+            </ul>
+
+            <!-- Mobile-nav-board -->
+            <ul class="mobile-tabbed-nav">
+              <li>
+                <div class="moble-tabbed-nav__tab-wrap">
+                  <a href="" class="mobile-tabbed-nav__tab">Казахстан</a>
+                </div>
+                <section>
+                  <figure class="mobile-tab-nav-img-wrap">
+                    <img class="mobile-tab-nav-img" src="../assets/images/mobile-tab-nav-img.svg" alt="">
+                  </figure>
+
+                  <div class="mobile-tab-nav__bottom-wrap">
+                    <div class="mobile-tab-nav__txt-wrap">
+                      <div class="mobile-tab-nav__txt-title">
+                        <p>Логистический центр</p>
+                      </div>
+                      <div class="mobile-tab-nav__txt">
+                        <p>Ауэзовский район, 050042, ул. Жандосова, 98 (угол ул. Навои) БЦ "Навои", офис 405</p>
+                        <div class="mobile-tab-nav__txt-phones">
+                          <p>+7 (727)3 545420</p>
+                          <p>+7 (702) 4899998</p>
+                        </div>
+                        <p>kz@infinityinc.net</p>
+                      </div>
+                    </div>
+                  </div>      
+                </section>
+              </li>
+              <li>
+                <div class="moble-tabbed-nav__tab-wrap">
+                  <a href="" class="mobile-tabbed-nav__tab">Узбекистан</a>
+                </div>
+                <section>
+                  <figure class="mobile-tab-nav-img-wrap">
+                    <img class="mobile-tab-nav-img" src="../assets/images/mobile-tab-img-uz.svg" alt="">
+                  </figure>
+
+
+                  <div class="mobile-tab-nav__bottom-wrap">
+                    <div class="mobile-tab-nav__txt-wrap">
+                      <div class="mobile-tab-nav__txt-title">
+                        <p>Клиентский центр</p>
+                      </div>
+                      <div class="mobile-tab-nav__txt">
+                        <p>Ташкент, 100069, Мирзо-Улугбекский район, пр. Мустакиллик 6</p>
+                        <div class="mobile-tab-nav__txt-phones">
+                          <p>+998(78)113 35 55</p>
+                        </div>
+                        <p>uz@infinityinc.net</p>
+                      </div>
+                    </div>
+                  </div>                  
+                </section>
+              </li>
+              <li>
+                <div class="moble-tabbed-nav__tab-wrap">
+                  <a href="" class="mobile-tabbed-nav__tab">Китай</a>
+                </div>
+                <section>
+                  <figure class="mobile-tab-nav-img-wrap">
+                    <img class="mobile-tab-nav-img" src="../assets/images/mobile-tab-nav-img-ch.svg" alt="">
+                  </figure>
+
+                  <div class="mobile-tab-nav__bottom-wrap">
+                    <div class="mobile-tab-nav__txt-wrap">
+                      <div class="mobile-tab-nav__txt-title">
+                        <p>Операционный центр</p>
+                      </div>
+                      <div class="mobile-tab-nav__txt">
+                        <p>2535-25/F, A Tower, R&F Ying Feng, 2 Hua Qiang Road, Guangzhou city, 510623, P. R. China</p>
+                        <div class="mobile-tab-nav__txt-phones">
+                          <p>+86 20 29129100</p>
+                          <p>+86 15800045005</p>
+                        </div>
+                        <p>cn@infinityinc.net</p>
+                      </div>
+                    </div>
+                  </div>                   
+                </section>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+  <!-- Link to the custom JavaScript -->
+  <script src="../assets/js/tabs.js"></script>
+  <!-- Link to the custom JavaScript -->
+  <script src="../assets/js/script.js"></script>
+  <!-- Link to the custom Slider JavaScript -->
+  <script src="../assets/js/sliders.js"></script>
+  <!-- Link to jquery accordion&tabs nav -->
+  <script src="../assets/js/jquery.atAccordionOrTabs.js"></script>
+  <script src="../assets/js/jquery.bbq.js"></script>
+
+  <!-- Link to the Slick-Carousel JS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
